@@ -62,7 +62,7 @@ func checkDomain(domain string) {
 			hasDMARC = true
 			dmarcRecord = record
 			break
-		}
+		};
 	}
 
 	fmt.Printf("%v, %v, %v, %v, %v, %v", domain, hasMX, hasSPF, spfRecord, hasDMARC, dmarcRecord)
